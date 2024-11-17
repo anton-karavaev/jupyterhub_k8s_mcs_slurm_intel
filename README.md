@@ -190,6 +190,9 @@ Let`s add some security measures
 nano config_lb.yaml
 #paste this to config_lb.yaml
 
+scheduling:
+  userScheduler:
+    enabled: false
 singleuser:
   defaultUrl: "/lab"
   storage:
